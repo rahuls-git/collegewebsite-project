@@ -1,0 +1,171 @@
+.all {background: #5E9DC8;}
+.header-fixed{margin-top: -30px;
+margin-left: -89px;}
+.menu{background: none;
+border: solid 1px #5E9DC8;
+height: 70px;
+width: 1325px;
+margin-left: -90px;
+margin-top:-17px;
+border-radius: 8px;
+}
+#up{position: fixed;
+margin: 575px -10px 2px 1150px;
+background: none;
+}
+#about,#message,#canteen,#contact,#library,#sports{
+    background: #fff;
+    margin-top: -440px;
+    margin-left: -90px;
+    width: 1328;
+    height: 440px;
+     display: none;
+    position: relative;
+    z-index: 1200;
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-align: center;
+   color: dimgray;
+    font-family: cursive;
+    font-size: 18px;
+}
+#about img{
+    width: 500px;
+    height: 250px;
+    margin-left: 1px;
+}
+#message img{
+    width: 200px;
+    height: 420px;
+    
+}
+#contact table{
+	border:2px solid black;
+	cellpadding:10px;
+}
+
+ul li { 
+text-align: center;
+	border-radius: 10px;
+  font: bold 18px sans-serif;
+  display: inline-block;
+margin-left: 80px;  
+margin-right: -4px;
+margin-top: 7px;
+  position: relative;
+  padding: 15px 20px;
+  background: none;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #C0C0C0;
+  color: #2F4F4F;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  left: -80px;
+  width: 250px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #D3D3D3; 
+  display: block; 
+}
+a:link {
+    text-decoration: none;
+    text-decoration-color: #2F4F4F;
+}
+ul li ul li:hover { background: #C0C0C0; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+    z-index: 1300;
+}
+#myCarousel{ margin-left: 220px;
+    margin-right: -75px;
+    width: 1020px;
+    height: 440px;
+    margin-top: -20px;
+border: 2px solid blue;
+    border-radius: 10px;}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+       width: 1000px;
+    height: 450px;
+      margin:auto;
+      
+  }
+
+.notice-inner{
+height: 395px;
+width: 296px;
+margin-top: -10px;
+text-align: center;
+font:sans-serif;
+
+}
+#noti{
+    background: #F8F8F8;
+    height: 35px;
+    text-align: center;
+    padding: 1px;
+    margin-top: 10px;
+ border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 600;
+}
+#bell{
+    z-index: 800;
+}
+.notice-main{
+    z-index:1100;
+height: 360px;
+
+}
+.col-sm-2notice-frame{
+    background-image: url("images/43.bell.png");
+    background-size: 310px 380px;
+    background-repeat: no-repeat; 
+    background-position: -10px;
+border: 2px solid blue;
+    border-radius: 10px;
+    height: 435px;
+width:300px;
+margin-left: 15px;
+margin-top: -440px;}
+.fb{
+		text-align:left;
+		margin-left:0px;
+		margin-top:50px;
+	}
+.quick{
+		text-align: center;
+		margin-top:-275px;
+		
+	}
+.contact{
+		text-align: right;
+		margin-top:-200px;
+	}
+.container-footer{
+	margin-top:0px;
+	margin-bottom:100px;
+}
